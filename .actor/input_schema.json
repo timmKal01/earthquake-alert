@@ -1,0 +1,60 @@
+{
+    "title": "Earthquake Alert Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "latitude": {
+            "title": "Latitude",
+            "type": "number",
+            "editor": "number",
+            "description": "Center point latitude for a regional search. Leave blank (with longitude) for a worldwide search."
+        },
+        "longitude": {
+            "title": "Longitude",
+            "type": "number",
+            "editor": "number",
+            "description": "Center point longitude for a regional search. Leave blank (with latitude) for a worldwide search."
+        },
+        "radiusKm": {
+            "title": "Radius (km)",
+            "type": "integer",
+            "editor": "number",
+            "description": "Search radius around the latitude/longitude, in kilometers. Only used if latitude and longitude are both set.",
+            "default": 300
+        },
+        "minMagnitude": {
+            "title": "Minimum magnitude",
+            "type": "number",
+            "editor": "number",
+            "description": "Only return earthquakes at or above this magnitude.",
+            "default": 4.5
+        },
+        "alertLevel": {
+            "title": "PAGER alert level",
+            "type": "string",
+            "editor": "select",
+            "description": "USGS PAGER estimated impact level: green (minimal), yellow, orange, or red (severe). Leave as \"all\" to skip this filter — most earthquakes have no alert level at all.",
+            "enum": ["all", "green", "yellow", "orange", "red"],
+            "enumTitles": ["All (no alert-level filter)", "Green", "Yellow", "Orange", "Red"],
+            "default": "all"
+        },
+        "daysBack": {
+            "title": "Days back",
+            "type": "integer",
+            "editor": "number",
+            "description": "How many days back from today to search.",
+            "default": 7,
+            "minimum": 1,
+            "maximum": 365
+        },
+        "maxResults": {
+            "title": "Max results",
+            "type": "integer",
+            "editor": "number",
+            "description": "Maximum number of earthquakes to return, most recent first.",
+            "default": 25,
+            "minimum": 1,
+            "maximum": 100
+        }
+    }
+}

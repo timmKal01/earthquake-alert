@@ -1,0 +1,12 @@
+{
+    "actorSpecification": 1,
+    "name": "earthquake-alert",
+    "title": "Earthquake Alert — Recent Seismic Activity by Region",
+    "description": "Search recent earthquakes worldwide by magnitude, region (radius from a point), or PAGER alert level. Official USGS data, for catastrophe risk, logistics, and disaster-response monitoring.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "dockerfile": "../Dockerfile"
+}

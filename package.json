@@ -1,0 +1,15 @@
+{
+    "name": "earthquake-alert",
+    "version": "0.1.0",
+    "type": "module",
+    "description": "Search recent earthquakes worldwide by magnitude, region, or PAGER alert level via the official USGS API.",
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "apify": "^3.2.6"
+    },
+    "scripts": {
+        "start": "node src/main.js"
+    }
+}
