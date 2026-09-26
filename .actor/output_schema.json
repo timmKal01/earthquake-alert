@@ -1,6 +1,6 @@
 {
     "actorOutputSchemaVersion": 1,
-    "title": "Output schema of Earthquake Alert — Recent Seismic Activity by Region",
+    "title": "Output schema of Earthquake Alert: Recent Seismic Activity by Region",
     "description": "Results are pushed to the default dataset, one record per item.",
     "properties": {
         "results": {
