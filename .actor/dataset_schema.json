@@ -1,0 +1,83 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "time",
+                    "magnitude",
+                    "place",
+                    "depthKm",
+                    "alertLevel",
+                    "tsunami",
+                    "felt",
+                    "significance",
+                    "status",
+                    "latitude",
+                    "longitude",
+                    "url",
+                    "eventId"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "time": {
+                        "label": "Time",
+                        "format": "date"
+                    },
+                    "magnitude": {
+                        "label": "Magnitude",
+                        "format": "number"
+                    },
+                    "place": {
+                        "label": "Place",
+                        "format": "text"
+                    },
+                    "depthKm": {
+                        "label": "Depth km",
+                        "format": "number"
+                    },
+                    "alertLevel": {
+                        "label": "Alert level",
+                        "format": "text"
+                    },
+                    "tsunami": {
+                        "label": "Tsunami",
+                        "format": "boolean"
+                    },
+                    "felt": {
+                        "label": "Felt",
+                        "format": "number"
+                    },
+                    "significance": {
+                        "label": "Significance",
+                        "format": "number"
+                    },
+                    "status": {
+                        "label": "Status",
+                        "format": "text"
+                    },
+                    "latitude": {
+                        "label": "Latitude",
+                        "format": "number"
+                    },
+                    "longitude": {
+                        "label": "Longitude",
+                        "format": "number"
+                    },
+                    "url": {
+                        "label": "URL",
+                        "format": "link"
+                    },
+                    "eventId": {
+                        "label": "Event ID",
+                        "format": "text"
+                    }
+                }
+            }
+        }
+    }
+}
