@@ -2,7 +2,7 @@
     "actorSpecification": 1,
     "name": "earthquake-alert",
     "title": "Earthquake Tracker: Recent Quakes by Region",
-    "description": "Search recent earthquakes worldwide by magnitude, region (radius from a point), or PAGER alert level. Official USGS data, for catastrophe risk, logistics, and disaster-response monitoring.",
+    "description": "Recent earthquake data for insurance, catastrophe risk, supply chain and disaster response teams. Search quakes worldwide by magnitude, region (radius around a point) or USGS PAGER impact level: magnitude, place, depth, time, tsunami flag and USGS event link.",
     "version": "0.1",
     "meta": {
         "templateId": "custom-no-proxy"

@@ -1,12 +1,26 @@
-# Earthquake Alert — Recent Seismic Activity by Region
+# Earthquake Tracker: Recent Quakes by Region
 
-Search recent earthquakes worldwide by minimum magnitude, a region (radius
-around a latitude/longitude), or USGS PAGER estimated-impact level. Get back
-magnitude, location, depth, tsunami flag, and a link to the full USGS event
-page — most recent first.
+Recent earthquake data for insurance and catastrophe risk teams, supply
+chain and logistics monitoring, and disaster response. Search earthquakes
+worldwide by minimum magnitude, by region (a radius around a point) or by
+USGS PAGER impact level, and get one row per quake from the official USGS
+feed, most recent first.
 
-Built for catastrophe/insurance risk teams, logistics and supply-chain
-monitoring, and disaster-response coordination watching a specific region.
+## What you get
+
+One row per earthquake:
+
+- Magnitude, depth, place description and coordinates
+- The time of the quake
+- USGS PAGER alert level (estimated impact) and tsunami flag
+- Felt reports and significance score
+- A link to the full USGS event page
+
+## Who this is for
+
+- **Insurance and catastrophe risk teams** checking which quakes hit near insured locations.
+- **Supply chain and logistics teams** watching regions where suppliers, warehouses or routes sit.
+- **Disaster response coordinators** following significant quakes in their area.
 
 ## Input
 
