@@ -84,5 +84,5 @@ search returns 1 event or 100.
 
 Looking for other risk-monitoring signals?
 
-- [Field Operations Risk Briefing](https://github.com/timmKal01/field-operations-risk-briefing) — weather + space-weather conditions by location
-- [Space Weather Alert](https://github.com/timmKal01/space-weather-alert) — geomagnetic storm and radio-blackout conditions
+- [Field Ops Risk Briefing](https://apify.com/m_ctim/field-operations-risk-briefing): weather + space-weather conditions by location
+- [Space Weather Alerts](https://apify.com/m_ctim/space-weather-alert): geomagnetic storm and radio-blackout conditions
